@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/17596c29da.js" crossorigin="anonymous"></script>
+<link rel="stylesheet"
+       href="https://fonts.googleapis.com/css?family=Lora|Nunito">
+</head>
+<body>
+<div class="modalbg">
+  <!-- <div class="modal" id="copied">
+    <p>email copied to clipboard</p>
+  </div> -->
+</div>
+<div id="grid">
+  <div class="row">
+    <div id="">
+    <img src="assets/headshot_flowers.jpg" id="headshot">
+    </div>
+    <div class="description">
+    <h1>Casey Hunt</h1>
+    <p>Hi, I’m Casey (she/her)! I am a second year PhD Student at the <a>THING Lab in the ATLAS Institute</a>. I design and build <span onclick="filterProjects('networked', 'inline')">networked</span> <span onclick="filterProjects('tangible', 'inline')">tangible</span> and <span onclick="filterProjects('embodied' , 'inline')">embodied</span> interaction systems. In my work, I explore how we can better create and connect using systems that
+de-center or supplement screens. In my work, I seek to engage the wider community about how to make effective 3-D interfaces, so I focus on <span onclick="filterProjects('participatory', 'inline')">participatory design practices</span> and <span onclick="filterProjects('toolkit', 'inline')">toolkit design</span>. </p>
+
+    <p class="link" id="contact"><a  onclick="contactMe()">contact me →</a></p>
+        <p class="link" id="copied">email copied to clipboard</p>
+
+    </div>
+  </div>
+
+<div class="row sectiontitle">
+  <div><h1>Projects</h1></div>
+    <div class="dropdown">
+<button class="dropbtn"><i class="fas fa-solid fa-filter fa-1x"></i> Sort by</button>
+<div class="dropdown-content">
+<div id="invisible"></div>
+<div id="border">
+<a onclick="filterProjects('clear', 'dropdown')">See All</a>
+<a onclick="filterProjects('networked', 'dropdown')" id="networked">Networked</a>
+<a onclick="filterProjects('tangible', 'dropdown')" id="tangible">Tangible</a>
+<a onclick="filterProjects('embodied', 'dropdown')" id="embodied">Embodied</a>
+<a onclick="filterProjects('participatory', 'dropdown')" id="participatory">Participatory Design</a>
+<a onclick="filterProjects('toolkit', 'dropdown')" id="toolkit">Toolkit Design</a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
