@@ -5,7 +5,7 @@ let proj;
 
 
 
-fetch('src/projects.json')
+fetch('/src/projects.json')
        .then(function (response) {
            return response.json();
        })
@@ -42,7 +42,7 @@ function eventListeners(){
 
 function projClick(subdomain){
   console.log('project clicked ' + subdomain);
-  window.location.href = '/rebuild/projects/' + subdomain + '.html';
+  window.location.href = '/projects/' + subdomain + '.html';
 }
 
 function contactMe(){
