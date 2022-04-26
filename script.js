@@ -5,7 +5,7 @@ let proj;
 
 
 
-fetch('/rebuild/src/projects.json')
+fetch('src/projects.json')
        .then(function (response) {
            return response.json();
        })
