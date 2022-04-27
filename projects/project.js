@@ -25,8 +25,9 @@ function findSubdomain(projects){
     if(projects.projects[i].subdomain == subdomain){
       index=i;
       console.log(projects.projects[i]);
-
+      console.log('subdomain ' + i);
       populatePage(projects.projects[i]);
+      break;
     }
   }
 }
