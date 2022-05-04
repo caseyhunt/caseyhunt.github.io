@@ -8,13 +8,13 @@
 } */
 
 body{
-  padding:100px 20vw 3vh 19vw;
+  padding:100px 20vw 3vh 20vw;
 }
 
 .row{
   display:flex;
   padding-left: 40px;
-  padding-right: 25px;
+  padding-right: 66px;
 }
 
 .row.project{
@@ -84,6 +84,17 @@ p{
 
 .link{
   text-align:right;
+  display:inline-block;
+}
+
+.links{
+  float: inline-end;
+  margin-right:26px;
+  margin-top:1.5vh;
+}
+
+#cv{
+  margin-right:20px;
 }
 
 .link#copied{
@@ -202,4 +213,82 @@ p{
 
 .sectiontitle{
     justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px){
+  .description{
+    padding-left:0px;
+    width:100%;
+  }
+
+  .projimg{
+    /* display:none; */
+    margin-bottom:20px;
+  }
+
+  body{
+    padding: 60px 1vw 3vh 1vw;
+  }
+
+  .row{
+    display:block;
+    padding-left:32px;
+    padding-right:50px;
+  }
+
+  #name{
+    margin-top: 15px;
+  }
+
+  .sectiontitle{
+    padding-top:100px;
+  }
+
+  #headshot{
+    width:260px;
+    margin-left:4px;
+  }
+
+  .projimg{
+    width:260px;
+    height:calc(260px*.88);
+    margin-left:4px;
+  }
+
+}
+
+@media only screen and (max-width: 1300px){
+  body{
+    padding: 60px 10vw 3vh 10vw;
+  }
+}
+
+
+@media only screen and (max-width: 1000px){
+  body{
+    padding: 60px 5vw 3vh 5vw;
+  }
+}
+
+
+@media only screen and (min-width: 2400px){
+  body{
+    padding: 60px 25vw 3vh 25vw;
+  }
+
+  .row{
+    padding-right:150px;
+  }
+
+
+}
+
+@media only screen and (min-width: 3000px){
+  body{
+    padding: 60px 30vw 3vh 30vw;
+  }
+
+  .row{
+    padding-right:150px;
+  }
 }
