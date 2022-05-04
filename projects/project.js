@@ -36,7 +36,12 @@ function populatePage(project){
   console.log(project);
 
   document.getElementById("title").innerHTML += '<h1>' + project.name + '</h1>';
-  document.getElementById("title").innerHTML += '<div id="collabs"></div>'
+  document.getElementById("title").innerHTML += '<div id="collabs"></div>';
+  if(project.collaborators.length==1){
+    document.getElementById("collabs").innerHTML += '<h3 class="collabs">Collaborator: &nbsp;</h3>'
+  }else{
+    document.getElementById("collabs").innerHTML += '<h3 class="collabs">Collaborators: &nbsp;</h3>'
+  }
   for(i=0;i<(project.collaborators.length);i++){
     if(i==(project.collaborators.length-1)){
       document.getElementById("collabs").innerHTML += '<h3 class="collabs">' + project.collaborators[i] + '</h3>';

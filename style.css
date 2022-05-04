@@ -29,16 +29,18 @@ body{
 }
 
 #headshot{
-  width:13vw;
+  width:270px;
   height:auto;
 }
+
+
 
 .projimg{
   width:270px;
   height:calc(270px*.88);
 }
 
-.projimg img{
+.projimg img, #headshot img{
   object-fit: cover;
   width:100%;
   height:100%;
@@ -51,9 +53,19 @@ h1{
   display: inline-block;
   transform: scaleX(.95);
   transform-origin: 0 0;
-  margin: -10px 0px 5px -5px;
+  margin: 0px 0px 15px -5px;
     color: #261D02;
 }
+
+#name{
+  margin-bottom:5px;
+
+}
+
+a{
+  text-decoration:none;
+}
+
 
 h2{
   font-family:Lora;
