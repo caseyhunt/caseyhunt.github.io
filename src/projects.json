@@ -56,7 +56,7 @@
 				"abstract": "A platform that utilizes tabletop swarm robots to create a dynamic tangible display. The system recognizes the identity of objects placed on the surface, and a paired display reacts to this configuration. Created for the 2021 UIST Student Innovation Challenge.",
 				"description": ["DOT, is a tabletop tangible display that detects and integrates everyday objects. Using swarm robots, we create a scalable, portable tangible interface. Two toio robots are combined with an assembly that contains a magnet with a lift screw, allowing the system to move magnet-containing objects placed on the tabletop. The resulting platform can be used for tangible play, communication, and co-creation.", "In contrast to previous approaches that use computer vision and fixed cameras for object recognition combined with a modified table, the toios in DOT recognize objects using markers placed on the base of the object, then move them. Because DOT uses a palm-sized assembly for both object recognition and movement, it does not require a stationary setup for object recognition."],
 				"mainimg": "dot.jpg",
-				"images": ["placeholder.jpg", "placeholder.jpg", "placeholder.jpg"]
+				"images": []
 			},
 
 			{
