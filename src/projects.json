@@ -20,7 +20,7 @@
 			"abstract": "A system built with off-the-shelf Ultra-High frequency RFID to create a room-scale radar system. Using deep learning Presence Mat approximates body position for yoga-based interaction.",
 			"description": ["As virtual assistants and remote classes become increasingly common in fitness, so too does the need to reliably recognize human posture and activity. We build a system that explores how device-free Ultra-High Frequency Radio Frequency Identification (UHF RFID) enables low-cost fitness tracking without the trade-offs of worn sensors or cameras.", "Because UHF RFID systems are subject to signal shielding by the human body, it is possible to utilize returned signal strength from passive tags to infer user position. However, because previous implementations only support low resolution activity recognition, application of this technology to fitness tracking is limited. With deep learning and a constrained the sensing area, we demonstrate increased fidelity, in spite of our focus on off-the-shelf systems (which provide fewer readings per second)."],
 				"mainimg": "mat.jpg",
-				"images": ["placeholder.jpg", "placeholder.jpg", "placeholder.jpg"]
+				"images": []
 			},
 
 			{
@@ -44,7 +44,7 @@
 				"abstract": "A swarm robot modification to create spatial scent for ambient telepresence. Using a top down camera and object recognition algorithm, the position and smell of an item placed on a tabletop can be simulated in a remote space. With Scent Bots design a mechanism to bring scent to a swarm robotics context while also exploring the nature of spatial scent for ambient telepresence.",
 				"description": ["The lab that I am part of in ATLAS, the THING Lab, functions remotely 2/3 of the time. Our advisor works from New York City and our collaborators are stationed around the world, while our lab is based out of CU Boulder. After living in this unique situation for several months, we identified a desire in the team for ambient presence of remote collaborators. With Scent Bots, we explore the combination of location and scent for remote communication and presence.", "The system pairs video calling, object recognition, a top-down projector, and robots to connect two tabletops through scent. Each table is captured via a top-down webcam, which is projected on the remote partner's table. An object placed on one table triggers the remote Scent Bot. This robot will move to the position where the item, say a fresh cup of coffee, is located on the remote table and release a corresponding scent at that position."],
 				"mainimg": "sbots.jpg",
-				"images": ["placeholder.jpg", "placeholder.jpg", "placeholder.jpg"]
+				"images": []
 			},
 
 			{
