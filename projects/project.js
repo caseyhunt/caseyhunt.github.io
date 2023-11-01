@@ -55,6 +55,10 @@ function populatePage(project){
 
     if(i==0){
       document.getElementById("slideshow").innerHTML += '<div class="slide fade"><img src="../assets/proj/' + project.mainimg +'" id="" alt=""></div>';
+      // if(project.video[0] == "True"){
+
+      //   document.getElementById("slideshow").innerHTML += '<div class="slide fade"><img src="../assets/proj/' + project.video[0] +'" id="" alt=""></div>';
+      // }
     }else{
       document.getElementById("slideshow").innerHTML += '<div class="slide fade"><img src="../assets/proj/' + project.images[i-1] + '" id="" alt=""></div>';
     }
