@@ -134,14 +134,19 @@ iframe{
   body{
     padding: 70px 4vw 3vh 4vw;
   }
+  h1{
+    font-size: 40px;
+  }
   .collabs{
     margin-top:0px;
     margin-bottom: 0px;
+    font-size: 16px
   }
 
   #collabs{
     margin-top:18px;
     margin-bottom:36px;
+    line-height: 140%;
   }
 
   #arrows{
@@ -150,6 +155,10 @@ iframe{
 
   #slideshow{
     height: calc(88vw*.66);
+  }
+
+  a.citation{
+    display:block
   }
 }
 
