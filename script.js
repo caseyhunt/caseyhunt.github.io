@@ -42,7 +42,7 @@ function eventListeners(){
 
 function projClick(subdomain){
   console.log('project clicked ' + subdomain);
-  window.location.href = '/projects/' + subdomain + '.html';
+  window.location.href = './projects/' + subdomain + '.html';
 }
 
 function contactMe(){
