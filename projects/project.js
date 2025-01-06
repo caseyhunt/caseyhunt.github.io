@@ -74,9 +74,17 @@ function populatePage(project){
   }
   //adding dot container for slideshow
 document.getElementById("slideshow").innerHTML += '<div id="dotcont"></div>';
-for(i=0;i<((project.images.length)+1);i++){
+let numSlides;
+if(project.video[0] == "True"){
+  numSlides = (project.images.length)+1;
+}else{
+  numSlides = (project.images.length);
+}
+
+for(i=0;i<(numSlides);i++){
   document.getElementById('dotcont').innerHTML += '<span class="dot" onclick="currentSlide(' + (i+1) + ')"></span>';
 }
+
   document.getElementById("slideshow").innerHTML +=   '<div id="arrows"><a class="prev" onclick="plusSlides(-1)">&#10094;</a><a class="next" onclick="plusSlides(1)">&#10095;</a></div>';
   document.querySelector("body").innerHTML += "<div id='description'></div>";
   for(i=0;i<project.description.length;i++){
