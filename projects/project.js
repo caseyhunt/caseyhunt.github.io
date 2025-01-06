@@ -13,7 +13,7 @@ fetch('../src/projects.json')
            return response.json();
        })
        .then(projects =>{
-         console.log(projects);
+         console.log(`projects`);
          // parseData(projects);
          findSubdomain(projects);
          proj = projects;
