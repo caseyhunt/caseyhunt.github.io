@@ -101,10 +101,14 @@ p{
 .links{
   float: inline-end;
   margin-right:26px;
-  margin-top:1.5vh;
+  margin-top:50px;
 }
 
-#cv{
+.links p{
+  font-size: 20px;
+}
+
+#cv, #pubs{
   margin-right:20px;
 }
 
@@ -124,17 +128,19 @@ p{
 
 
 
-
+/* old link color #6667AB */
 .link a, span, a{
-  color: #6667AB;
+  color: #6719cf;
   cursor: pointer;
   box-sizing: border-box;
-  border-bottom: 1px solid #6667AB;
+  border-bottom: 1px solid #6719cf;
+  font-weight: 200;
 }
 
+/* old hover color #0A0C6B */
 .link a:hover, span:hover, a:hover{
-    border-bottom: 2px solid #0A0C6B;
-    color:#0A0C6B;
+    border-bottom: 2px solid #1d0143;
+    color:#1d0143;
 }
 
 
@@ -144,7 +150,7 @@ p{
 }
 
 .sectiontitle{
-  margin-top: 90px;
+  margin-top: 40px;
 }
 
 .subtitle{
@@ -155,6 +161,7 @@ p{
 /*Styling Dropdown*/
 /*https://www.w3schools.com/css/css_dropdowns.asp*/
 
+/* this is the dropdown button that filters the projects */
 .dropbtn {
   cursor: pointer;
   padding: 10px 40px;
@@ -162,6 +169,7 @@ p{
   font-size:14px;
   background-color:white;
   border: 1px black solid;
+  visibility:hidden;
 }
 
 .dropdownflex{
